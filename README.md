@@ -2,8 +2,6 @@
 
 A small docker container using alpine:latest that I use for testing stuff.
 
-To override settings, attach a volume at /etc/squid and on first run the image will copy the squid settings it's using to the folder.  Shut down the container, edit the settings per taste and restart.
-
 # Usage:
 <pre>
 docker run -it kiwichrish/alpine_ash
