@@ -3,6 +3,6 @@
 
 FROM alpine:latest
 
-RUN apk add --update busybox-extras mariadb-client openssh-client tzdata && rm -f /var/cache/apk/*
+RUN apk add --update busybox-extras mariadb-client openssh-client tzdata nmap && rm -f /var/cache/apk/*
 
 CMD ["/bin/ash"]

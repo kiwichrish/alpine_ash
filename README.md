@@ -10,3 +10,4 @@ docker run -it kiwichrish/alpine_ash
 
 # Changelog
 * 15-Sep-2019 Added tzdata package so timezone will be set correctly in container if needed.
+* 03-Oct-2019 Added Nmap and tcpdump, because testing...
