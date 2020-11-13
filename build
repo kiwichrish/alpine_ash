@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# quick'n'dirty script for building the docker container...
+# because I'm lazy
+
+echo "Pulling current alpine"
+echo "==================================================="
+docker pull alpine:latest
+echo "==================================================="
+echo "Building"
+echo "==================================================="
+docker build -t kiwichrish/alpine_ash:latest .
